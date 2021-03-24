@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int getEOFValue() {
+int printEOFValue() {
     printf("%d", EOF);
 
     return 0;

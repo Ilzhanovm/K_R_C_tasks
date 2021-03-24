@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int getBoolValue() {
+int printBoolValue() {
     printf("%d", getchar() != EOF);
 
     return 0;
