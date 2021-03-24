@@ -8,6 +8,7 @@
 #include "Chapter_1/task1_7.c"
 #include "Chapter_1/task1_8.c"
 #include "Chapter_1/task1_9.c"
+#include "Chapter_1/task1_10.c"
 
 int main() {
     //helloWorld(); //task 1.1
@@ -18,7 +19,8 @@ int main() {
     //printBoolValue(); //task 1.6
     //printEOFValue(); //task 1.7
     //symbolCount(); //task 1.8
-    copyWithReplacement(); //task 1.9
+    //copyWithReplacement(); //task 1.9
+    replaceSpecialSymbols(); //task 1.10
 
     return 0;
 }
