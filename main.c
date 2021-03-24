@@ -7,6 +7,7 @@
 #include "Chapter_1/task1_6.c"
 #include "Chapter_1/task1_7.c"
 #include "Chapter_1/task1_8.c"
+#include "Chapter_1/task1_9.c"
 
 int main() {
     //helloWorld(); //task 1.1
@@ -16,7 +17,8 @@ int main() {
     //printReverseFahrToCelScale(); //task 1.5
     //printBoolValue(); //task 1.6
     //printEOFValue(); //task 1.7
-    symbolCount();
+    //symbolCount(); //task 1.8
+    copyWithReplacement(); //task 1.9
 
     return 0;
 }
