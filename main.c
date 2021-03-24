@@ -9,6 +9,7 @@
 #include "Chapter_1/task1_8.c"
 #include "Chapter_1/task1_9.c"
 #include "Chapter_1/task1_10.c"
+#include "Chapter_1/task1_12.c"
 
 int main() {
     //helloWorld(); //task 1.1
@@ -20,7 +21,8 @@ int main() {
     //printEOFValue(); //task 1.7
     //symbolCount(); //task 1.8
     //copyWithReplacement(); //task 1.9
-    replaceSpecialSymbols(); //task 1.10
+    //replaceSpecialSymbols(); //task 1.10
+    separateFlow(); //task 1.12
 
     return 0;
 }
