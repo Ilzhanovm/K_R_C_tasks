@@ -14,11 +14,11 @@ int copyWithReplacement() {
     _Bool spacesOnly = TRUE;
 
     while ((nextChar = fgetc(file)) != EOF) {
-        if (nextChar == ' ' && spacesOnly) {
+        if (nextChar == ' ' && spacesOnly)
             spacesCount++;
-        } else if (nextChar == '\n' && spacesOnly) {
+        else if (nextChar == '\n' && spacesOnly)
             putchar(' ');
-        } else {
+        else {
             spacesOnly = FALSE;
             while (spacesCount > 0) {
                 putchar(' ');
