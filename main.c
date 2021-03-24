@@ -4,13 +4,15 @@
 #include "Chapter_1/task1_3.c"
 #include "Chapter_1/task1_4.c"
 #include "Chapter_1/task1_5.c"
+#include "Chapter_1/task1_6.c"
 
 int main() {
     //helloWorld(); //task 1.1
     //symbolTest(); //task 1.2
     //printFahrToCelScale(); //task 1.3
     //printCelToFahrScale(); //task 1.4
-    printReverseFahrToCelScale(); //task 1.5
+    //printReverseFahrToCelScale(); //task 1.5
+    getBoolValue();
 
     return 0;
 }
