@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "task1_1.c"
-#include "task1_2.c"
-#include "task1_3.c"
-#include "task1_4.c"
+#include "Chapter_1/task1_1.c"
+#include "Chapter_1/task1_2.c"
+#include "Chapter_1/task1_3.c"
+#include "Chapter_1/task1_4.c"
 
 int main() {
     //helloWorld(); //task 1.1
