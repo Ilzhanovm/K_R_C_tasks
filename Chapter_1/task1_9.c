@@ -26,7 +26,7 @@ int copyWithReplacement() {
             }
             putchar(nextChar);
             if (nextChar == '\n')
-                spacesOnly = 1;
+                spacesOnly = TRUE;
         }
     }
 
